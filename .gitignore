@@ -1,0 +1,46 @@
+# Compiled object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dll
+*.dylib
+
+# Compiled Static libraries
+*.lib
+*.a
+
+# Executable files
+*.exe
+*.out
+*.app
+
+# Debug files
+*.pdb
+*.idb
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Build directories
+/build/
+/bin/
+/Debug/
+/Release/
+
+# IDE files
+*.vcxproj*
+*.sln
+*.user
+*.ncb
+*.suo
+*.opensdf
+*.sdf
+
+# MacOS files
+.DS_Store
+
+# Other
+*.log
