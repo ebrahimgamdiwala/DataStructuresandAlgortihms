@@ -2,6 +2,9 @@
 #include <vector>
 using namespace std;
 
+//Time Complexity : O(8^(n^2)) This is because we are making 8 different choices for n^2 cells
+//Space Complexity : O(n^2) This is because of the recursion call stack
+
 bool isValid(vector<vector<int>>& grid, int r, int c, int n, int expVal) {
     if (r < 0 || c < 0 || r >= n || c >= n || grid[r][c] != expVal) {
         return false;
