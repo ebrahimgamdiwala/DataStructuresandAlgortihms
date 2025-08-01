@@ -8,6 +8,10 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
+// Time Complexity: O(n + m)
+// where n = length of list1, m = length of list2
+// Each node from both lists is visited exactly once.
+// Space Complexity: O(n + m) due to recursion stack in the worst case.
 // Recursive function to merge two sorted linked lists.
 ListNode* mergeTwoLists(ListNode* head1, ListNode* head2) {
     if (head1 == nullptr || head2 == nullptr) {

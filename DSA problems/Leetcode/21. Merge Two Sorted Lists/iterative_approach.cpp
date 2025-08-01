@@ -8,6 +8,10 @@ struct ListNode {
     ListNode(int x) : val(x), next(nullptr) {}
 };
 
+// Time Complexity: O(n + m)
+// where n = length of list1, m = length of list2
+// Each node is processed once and added to the merged list.
+// Space Complexity: O(1) — done iteratively, no recursion stack.
 // Iterative function to merge two sorted linked lists.
 ListNode* mergeTwoLists(ListNode* head1, ListNode* head2) {
     ListNode dummy(0); // Dummy node to simplify code
